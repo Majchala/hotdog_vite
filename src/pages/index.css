@@ -1,0 +1,74 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/french-hot-dog-realistic-composition-with-set-isolated-images-with-ingredients-top-blackboard-vector-illustration_1284-75904.jpg?t=st=1715184331~exp=1715187931~hmac=ed665227ca592840c26fe7c9bd3e292d90d2378be8e6571c2500dad9e6688039&w=2000');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 15px 30px;
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+h2 {
+    color: #FFE195;
+    font-size: 20px;
+}
+
+h1,
+h2,
+p {
+    padding-left: 12px;
+}
+
+
+#toppings-container {
+    color: white;
+}
+
+#toppings-container .topping {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    min-width: 300px;
+    font-size: 15px;
+}
+
+#toppings-container .topping h3 {
+    padding: 12px;
+    color: #ffb703;
+    margin: 5px 0;
+}
+
+#toppings-container .topping p {
+  margin-left: 30px;
+  margin: 10px;
+  background-color: transparent;
+  padding-left: -15px;
+}
+
+#toppings-container .topping--selected h3 {
+    border: #c1121f solid 2px;
+    border-radius: 50%;
+}
+
+button {
+    font-size: 15px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #c1121f;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
